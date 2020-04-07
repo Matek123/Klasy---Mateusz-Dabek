@@ -147,11 +147,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Czworokąt.cpp" />
     <ClCompile Include="Figury.cpp" />
     <ClCompile Include="Trójkąt.cpp" />
     <ClCompile Include="Zad 4C.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Czworokąt.h" />
     <ClInclude Include="Figury.h" />
     <ClInclude Include="Trójkąt.h" />
   </ItemGroup>

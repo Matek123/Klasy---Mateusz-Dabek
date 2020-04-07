@@ -3,12 +3,13 @@
 class Trójk¹t :
 	public Figury
 {private:
+	int istnieje; //Zmienna pomocnicza do stworzenia obiektu typu klasa
 	double bok1, bok2, bok3;
 	double kat;
 	double wysokosc;
 	double Ax, Ay, Bx, By, Cx, Cy;
 public:
-	Trójk¹t();
+	Trójk¹t(int _is);
 	~Trójk¹t();
 	double pobierzbok1();
 	double pobierzbok2();

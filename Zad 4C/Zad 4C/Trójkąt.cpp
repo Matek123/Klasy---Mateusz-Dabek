@@ -4,7 +4,7 @@
 
 using namespace std;
 
-Trójk¹t::Trójk¹t() {}
+Trójk¹t::Trójk¹t(int _is) { istnieje = _is; }
 Trójk¹t::~Trójk¹t() {}
 double Trójk¹t::pobierzbok1() { return bok1; }
 double Trójk¹t::pobierzbok2() { return bok2; }
